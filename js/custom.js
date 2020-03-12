@@ -34,4 +34,3 @@ function sendFeedback() {
     document.getElementById("clearDiv").style.display = "none";
     document.getElementById("submitted").style.display = "inline";
 }
-sendFeedback
