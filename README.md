@@ -3,12 +3,12 @@ SE 410-003
 PeerReview
 
 Team Blue Members:
-Chris Forsythe
-Valentin Sigalov
-Adam Federbusch 
-Jerrin Rajan
-Joyel Manoj
-Uzair Vawda
+Chris Forsythe<br/>
+Valentin Sigalov<br/>
+Adam Federbusch<br/>
+Jerrin Rajan<br/>
+Joyel Manoj<br/>
+Uzair Vawda<br/>
 
 Project Status:
 As of now, the db has been created and a copy of the scheme is on the github. It is not connected to the frontend in any way but we do have all of the tables created. 
