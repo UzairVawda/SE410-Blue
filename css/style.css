@@ -1229,3 +1229,108 @@ a.module-editor-back {
 .view-module-rest-item {
     padding-top: 10px;
 }
+
+/* My Modules */
+
+#myModulesContainer {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#module {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+#moduleListHeader {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: lightgreen;
+}
+
+#moduleId {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: darkgray;
+    border-right-width: 1px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+}
+
+#moduleTitle {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: darkgray;
+    border-right-width: 1px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+}
+
+#moduleCategory {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: darkgray;
+    border-right-width: 1px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+}
+
+#moduleVersion {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: darkgray;
+    border-right-width: 1px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+}
+
+#moduleDate {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: darkgray;
+    border-right-width: 1px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+}
+
+#moduleOptions {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.darkModule {
+    background-color: lightgray;
+    color: white;
+}
+
+#modulesList {
+    overflow-y: scroll;
+    height: 70vh;
+}
