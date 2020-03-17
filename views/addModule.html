@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PeerReview</title>
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Candal|Alegreya+Sans">
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/imagehover.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body>
+    <!--Navigation bar-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+                <a class="navbar-brand" href="index.html">Peer<span>Review</span></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="signin.html">Sign in</a></li>
+                    <li><a href="signup.html">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--/ Navigation bar-->
+    <!--Banner-->
+    <div class="container" style="padding-top:100px;">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link" href="browse.html">Browse All</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="search.html">Search</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="addModule.html">Add Module</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="myModules.html">My Modules</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="account.html">Account Preferences</a>
+            </li>
+        </ul>
+    </div>
+    <!--/ Banner-->
+
+    <!-- Module Editor -->
+    <div class="module-editor">
+        <div class="module-editor-head">
+            <a href="#" class="module-editor-back">Back</a>
+            <div class="module-editor-head-inner">
+                <p>Module Editor</p>
+                <h1>"Untitled Module"</h1>
+            </div>
+            <div class="module-editor-head-grow"></div>
+            <div class="module-editor-head-message">
+                <p></p>
+            </div>
+        </div>
+        <div class="module-editor-body">
+            <div class="module-editor-nav">
+                <ul>
+                    <li><a href="#" class="module-editor-nav-item selected">General Information</a></li>
+                    <li><a href="#" class="module-editor-nav-item">Materials</a></li>
+                    <li><a href="#" class="module-editor-nav-item">References</a></li>
+                    <li><a href="#" class="module-editor-nav-item">Miscellaneous</a></li>
+                </ul>
+                <a href="#" class="module-editor-nav-submit">Submit Module</a>
+                <a href="#" class="module-editor-nav-delete">Delete Module</a>
+            </div>
+            <div class="module-editor-bar"></div>
+            <div class="module-editor-inputbody">
+                <div class="module-editor-input-item">
+                    <div class="module-editor-body-desc">
+                        <h2>Title</h2>
+                        <p>A general title for the module.</p>
+                    </div>
+                    <div class="module-editor-body-input">
+                        <input type="text" class="module-editor-title-input" />
+                    </div>
+                </div>
+                <div class="module-editor-input-item">
+                    <div class="module-editor-body-desc">
+                        <h2>Abstract</h2>
+                        <p>A general description for the module.</p>
+                    </div>
+                    <div class="module-editor-body-input">
+                        <textarea name="abstract"></textarea>
+                    </div>
+                </div>
+                <div class="module-editor-input-item">
+                    <div class="module-editor-body-desc">
+                        <h2>Authors</h2>
+                        <p>Authors of this module. These are users that may edit the contents of the module.</p>
+                    </div>
+                    <div class="module-editor-body-input">
+                        <input type="text" />
+                    </div>
+                </div>
+                <div class="module-editor-input-item">
+                    <div class="module-editor-body-desc">
+                        <h2>Categories</h2>
+                        <p>Categories that this module applies to, used for sorting.</p>
+                    </div>
+                    <div class="module-editor-body-input">
+                        <input type="text" />
+                    </div>
+                </div>
+                <div class="module-editor-input-item">
+                    <div class="module-editor-body-desc">
+                        <h2>Topics</h2>
+                        <p>Topics that this module pertains to, used for sorting.</p>
+                    </div>
+                    <div class="module-editor-body-input">
+                        <input type="text" />
+                    </div>
+                </div>
+                <div class="module-editor-input-item">
+                    <div class="module-editor-body-desc">
+                        <h2>Language</h2>
+                        <p>The language this module is written in.</p>
+                    </div>
+                    <div class="module-editor-body-input">
+                        <input type="text" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/980c80b05d.js" crossorigin="anonymous"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.easing.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/custom.js"></script>
+    <script src="../js/module-editor.js"></script>
+
+</body>
+
+</html>
