@@ -1099,3 +1099,130 @@ a.module-editor-back {
 .module-editor-body-input textarea {
     height: 100%;
 }
+
+
+
+.view-module {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 1050px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.view-module-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.view-module-head-inner p {
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+.view-module-head-inner h1 {
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+.view-module-head-grow {
+    flex: 1;
+}
+.view-module-head-rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+.view-module-head-rating span {
+    font-size: 50px;
+    user-select: none;
+    color: black;
+    cursor: pointer;
+}
+.view-module-head-rating > span:before {
+    content: "\2605";
+    font-size: 50px;
+    position: absolute;
+    color: black;
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+}
+.view-module-head-rating > span:hover:before,
+.view-module-head-rating > span:hover ~ span:before {
+    opacity: 1;
+}
+
+.view-module-general {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.view-module-general-row:nth-child(1n) {
+    background-color: #80808012;
+}
+.view-module-general-row:nth-child(2n) {
+    background-color: #80808030;
+}
+.view-module-general-row {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.view-module-general-column:nth-child(1n) {
+    width: 30%;
+}
+.view-module-general-column > p {
+    font-weight: bold;
+    margin: 0;
+    color:#4B4B4C;
+}
+
+.view-module-body {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.view-module-abstract {
+    width: 50%;
+}
+
+.view-module-materials {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    flex: 1;
+}
+.view-module-materials > ol {
+    padding: 0;
+}
+.view-module-material-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.view-module-material-head a {
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+.view-module-material-head a {
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+.view-module-material-head a:hover, .view-module-material-head a:active {
+    color: white;
+    background: black;
+}
+
+.view-module-rest {
+    padding-bottom: 50px;
+}
+.view-module-rest-item {
+    padding-top: 10px;
+}
