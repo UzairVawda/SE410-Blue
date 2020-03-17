@@ -49,7 +49,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="account.html">Account Preferences</a>
             </li>
-            <div id='searchBar' style='margin-left: 65vw;'>
+            <div id='searchBar' style='margin-left: 60vw; display: flex;'>
                 <input type='text'>
                 <a href='browse.html'>Search</a>
             </div>
@@ -61,6 +61,246 @@
         </div>
     </div>
     <!--/ Banner-->
+
+    <!--Content-->
+        <div id='modulesContainer'>
+            <div id='filter'>
+                <h3>Filter</h3>
+                <div id='filterContainer'>
+                    <h4>Search By Title</h4>
+                    <input type='text'>
+                </div>
+                <div id='filterContainer'>
+                    <h4>Search By Categories</h4>
+                    <input type='radio' id='any'>
+                    <label for='any'>Any</label>
+                    <br />
+                    <input type='radio' id='basics'>
+                    <label for='basics'>Basics</label>
+                    <br />
+                    <input type='radio' id='theory'>
+                    <label for='theory'>Theory</label>
+                    <br />
+                    <input type='radio' id='Implementation'>
+                    <label for='Implementation'>Implementation</label>
+                    <br />
+                    <input type='radio' id='concepts'>
+                    <label for='concepts'>Concepts</label>
+                </div>
+                <div id='filterContainer'>
+                    <h4>Search By Author</h4>
+                    <input type='text'>
+                </div>
+                <button>Apply Filter</button>
+            </div>
+            <div id='modulesList'>
+                <div id='moduleListHeader'>
+                    <div id='moduleIdBrowse'>
+                        <p>ID</p>
+                    </div>
+                    <div id='moduleTitleBrowse'>
+                        <p>Title</p>
+                    </div>
+                    <div id='moduleCategoryBrowse'>
+                        <p>Category</p>
+                    </div>
+                    <div id='moduleVersionBrowse'>
+                        <p>Version</p>
+                    </div>
+                    <div id='moduleDateBrowse'>
+                        <p>Creation Date</p>
+                    </div>
+                </div>
+                <div id='module' class='lightModule'>
+                    <div id='moduleIdBrowse'>
+                        <p>1</p>
+                    </div>
+                    <div id='moduleTitleBrowse'>
+                        <a href='viewModule.html'>Code Inspection Exercise</a>
+                    </div>
+                    <div id='moduleCategoryBrowse'>
+                        <p>Implementation</p>
+                    </div>
+                    <div id='moduleVersionBrowse'>
+                        <p>1.0</p>
+                    </div>
+                    <div id='moduleDateBrowse'>
+                        <p>02-26-2017</p>
+                    </div>
+                </div>
+                <div id='module' class='darkModule'>
+                    <div id='moduleIdBrowse'>
+                        <p>2</p>
+                    </div>
+                    <div id='moduleTitleBrowse'>
+                        <a href='viewModule.html'>CS 490/790</a>
+                    </div>
+                    <div id='moduleCategoryBrowse'>
+                        <p>Theory</p>
+                    </div>
+                    <div id='moduleVersionBrowse'>
+                        <p>3.3</p>
+                    </div>
+                    <div id='moduleDateBrowse'>
+                        <p>11-08-2011</p>
+                    </div>
+                </div>
+                <div id='module' class='lightModule'>
+                    <div id='moduleIdBrowse'>
+                        <p>3</p>
+                    </div>
+                    <div id='moduleTitleBrowse'>
+                        <a href='viewModule.html'>Data Security</a>
+                    </div>
+                    <div id='moduleCategoryBrowse'>
+                        <p>Basics</p>
+                    </div>
+                    <div id='moduleVersionBrowse'>
+                        <p>2.1</p>
+                    </div>
+                    <div id='moduleDateBrowse'>
+                        <p>09-18-2013</p>
+                    </div>
+                </div>
+                <div id='module' class='darkModule'>
+                    <div id='moduleIdBrowse'>
+                        <p>4</p>
+                    </div>
+                    <div id='moduleTitleBrowse'>
+                        <a href='viewModule.html'>Demo Module</a>
+                    </div>
+                    <div id='moduleCategoryBrowse'>
+                        <p>Basics</p>
+                    </div>
+                    <div id='moduleVersionBrowse'>
+                        <p>1.1</p>
+                    </div>
+                    <div id='moduleDateBrowse'>
+                        <p>02-11-2010</p>
+                    </div>
+                </div>
+                <div id='module' class='lightModule'>
+                    <div id='moduleIdBrowse'>
+                        <p>5</p>
+                    </div>
+                    <div id='moduleTitleBrowse'>
+                        <a href='viewModule.html'>Fraud</a>
+                    </div>
+                    <div id='moduleCategoryBrowse'>
+                        <p>Basics</p>
+                    </div>
+                    <div id='moduleVersionBrowse'>
+                        <p>1.6</p>
+                    </div>
+                    <div id='moduleDateBrowse'>
+                        <p>04-02-2016</p>
+                    </div>
+                </div>
+                <div id='module' class='darkModule'>
+                    <div id='moduleIdBrowse'>
+                        <p>6</p>
+                    </div>
+                    <div id='moduleTitleBrowse'>
+                        <a href='viewModule.html'>Incident Response</a>
+                    </div>
+                    <div id='moduleCategoryBrowse'>
+                        <p>Theory</p>
+                    </div>
+                    <div id='moduleVersionBrowse'>
+                        <p>1.1</p>
+                    </div>
+                    <div id='moduleDateBrowse'>
+                        <p>04-23-2015</p>
+                    </div>
+                </div>
+                <div id='module' class='lightModule'>
+                    <div id='moduleIdBrowse'>
+                        <p>7</p>
+                    </div>
+                    <div id='moduleTitleBrowse'>
+                        <a href='viewModule.html'>IS Audit</a>
+                    </div>
+                    <div id='moduleCategoryBrowse'>
+                        <p>Concepts</p>
+                    </div>
+                    <div id='moduleVersionBrowse'>
+                        <p>2.1</p>
+                    </div>
+                    <div id='moduleDateBrowse'>
+                        <p>08-21-2012</p>
+                    </div>
+                </div>
+                <div id='module' class='darkModule'>
+                    <div id='moduleIdBrowse'>
+                        <p>8</p>
+                    </div>
+                    <div id='moduleTitleBrowse'>
+                        <a href='viewModule.html'>IT Governance</a>
+                    </div>
+                    <div id='moduleCategoryBrowse'>
+                        <p>Concepts</p>
+                    </div>
+                    <div id='moduleVersionBrowse'>
+                        <p>1.8</p>
+                    </div>
+                    <div id='moduleDateBrowse'>
+                        <p>09-10-2015</p>
+                    </div>
+                </div>
+                <div id='module' class='lightModule'>
+                    <div id='moduleIdBrowse'>
+                        <p>9</p>
+                    </div>
+                    <div id='moduleTitleBrowse'>
+                        <a href='viewModule.html'>Java</a>
+                    </div>
+                    <div id='moduleCategoryBrowse'>
+                        <p>Implementation</p>
+                    </div>
+                    <div id='moduleVersionBrowse'>
+                        <p>3.4</p>
+                    </div>
+                    <div id='moduleDateBrowse'>
+                        <p>11-02-2011</p>
+                    </div>
+                </div>
+                <div id='module' class='darkModule'>
+                    <div id='moduleIdBrowse'>
+                        <p>10</p>
+                    </div>
+                    <div id='moduleTitleBrowse'>
+                        <a href='viewModule.html'>Python</a>
+                    </div>
+                    <div id='moduleCategoryBrowse'>
+                        <p>Implementation</p>
+                    </div>
+                    <div id='moduleVersionBrowse'>
+                        <p>2.5</p>
+                    </div>
+                    <div id='moduleDateBrowse'>
+                        <p>03-12-2016</p>
+                    </div>
+                </div>
+                <div id='module' class='lightModule'>
+                    <div id='moduleIdBrowse'>
+                        <p>11</p>
+                    </div>
+                    <div id='moduleTitleBrowse'>
+                        <a href='viewModule.html'>Risk Management</a>
+                    </div>
+                    <div id='moduleCategoryBrowse'>
+                        <p>Basics</p>
+                    </div>
+                    <div id='moduleVersionBrowse'>
+                        <p>1.1</p>
+                    </div>
+                    <div id='moduleDateBrowse'>
+                        <p>02-17-2020</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--/ Content-->
 
     <script src="https://kit.fontawesome.com/980c80b05d.js" crossorigin="anonymous"></script>
     <script src="../js/jquery.min.js"></script>

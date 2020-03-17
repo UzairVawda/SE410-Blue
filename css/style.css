@@ -1237,12 +1237,29 @@ a.module-editor-back {
     padding-right: 15%;
 }
 
+#modulesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#modulesList {
+    width: 70vw;
+}
+
 #module {
     display: flex;
     flex-direction: row;
 }
 
-
+#filter {
+    display: flex;
+    width: 30vw;
+    flex-direction: column;
+    align-items: center;
+}
 
 #moduleListHeader {
     display: flex;
@@ -1332,4 +1349,76 @@ a.module-editor-back {
 #modulesList {
     overflow-y: scroll;
     height: 70vh;
+}
+
+#moduleIdBrowse {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: darkgray;
+    border-right-width: 1px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+}
+
+#moduleTitleBrowse {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: darkgray;
+    border-right-width: 1px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+}
+
+#moduleCategoryBrowse {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: darkgray;
+    border-right-width: 1px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+}
+
+#moduleVersionBrowse {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: darkgray;
+    border-right-width: 1px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+}
+
+#moduleDateBrowse {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: darkgray;
+    border-right-width: 1px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+}
+
+#filterContainer {
+    padding-bottom: 1%;
+    border-bottom: solid;
+    border-bottom-color: lightgray;
+    margin-bottom: 1%;
 }
