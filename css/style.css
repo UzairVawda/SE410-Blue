@@ -1099,3 +1099,8 @@ a.module-editor-back {
 .module-editor-body-input textarea {
     height: 100%;
 }
+
+#navContainer {
+    display: flex;
+    justify-content: space-between;
+}

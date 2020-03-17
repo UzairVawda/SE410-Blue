@@ -26,10 +26,6 @@
                 <a class="navbar-brand" href="index.html">Peer<span>Review</span></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="signin.html">Sign in</a></li>
-                    <li><a href="signup.html">Sign Up</a></li>
-                </ul>
             </div>
         </div>
     </nav>
@@ -40,9 +36,6 @@
             <li class="nav-item">
                 <a class="nav-link" href="browse.html">Browse All</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="search.html">Search</a>
-            </li>
             <li class="nav-item active">
                 <a class="nav-link" href="addModule.html">Add Module</a>
             </li>
@@ -52,7 +45,16 @@
             <li class="nav-item">
                 <a class="nav-link" href="account.html">Account Preferences</a>
             </li>
+            <div id='searchBar' style='margin-left: 65vw;'>
+                <input type='text'>
+                <a href='browse.html'>Search</a>
+            </div>
         </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+        </div>
     </div>
     <!--/ Banner-->
 
