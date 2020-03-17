@@ -1100,7 +1100,10 @@ a.module-editor-back {
     height: 100%;
 }
 
-
+#navContainer {
+    display: flex;
+    justify-content: space-between;
+}
 
 .view-module {
     display: flex;
